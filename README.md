@@ -18,6 +18,14 @@ Sistema completo de gestión con:
 - 4GB de RAM disponible
 - Git (opcional)
 
+### 🛠️ Instalación
+
+1. **Clonar el repositorio**
+```bash
+git clone https://github.com/claudiasaldivar/marketplace
+cd marketplace
+```
+
 ## .env
 
 - APP_URL=http://localhost:8000
@@ -43,12 +51,5 @@ Sistema completo de gestión con:
 ## Problema: Permisos denegados
 En dado caso que tengan problema de permisos
 - docker-compose exec app chown -R www-data:www-data storage bootstrap/cache
-
-### 🛠️ Instalación
-
-1. **Clonar el repositorio**
-```bash
-git clone https://github.com/claudiasaldivar/marketplace
-cd marketplace
 
 
